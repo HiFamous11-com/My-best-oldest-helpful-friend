@@ -2,7 +2,7 @@
 
 nav {
   background-image: url("https://wallpapercave.com/wp/wp3503092.jpg");
-  height: 1rem;
+  height: 2rem;
   padding: 1rem;
       padding-top: 1rem;
       padding-right: 1rem;
@@ -32,6 +32,7 @@ nav .nav-left {
 
 nav a {
   color:antiquewhite;
+  text-decoration: none;
 }
 
 nav a:hover {

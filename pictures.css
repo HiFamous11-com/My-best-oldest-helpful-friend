@@ -1,0 +1,12 @@
+.pic {
+    border: calc(var(--radius) / 2);
+    border-radius: 5px;
+    background-image: url("https://cms-assets.tutsplus.com/uploads/users/30/posts/31507/preview_image/pre.png");
+    border-style: groove;
+    padding: 1.25rem;
+    margin: 3vh 3vw;
+}
+
+.pic.main {
+    margin: 4vh 1vw;
+}

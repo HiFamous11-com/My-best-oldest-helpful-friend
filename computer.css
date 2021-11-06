@@ -1,0 +1,7 @@
+@import url("computer.png");
+
+.computer {
+    background-image: url("computer.png");
+    border: calc(var(--radius) / 2);
+    border-radius: 5px;
+}
