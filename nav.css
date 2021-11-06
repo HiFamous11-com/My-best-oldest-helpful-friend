@@ -1,34 +1,40 @@
 @import url("main.css");
 
 nav {
-    background-image: url("https://wallpapercave.com/wp/wp3503092.jpg");
-    height: 2rem;
-    padding: 1rem;
-    position: relative;
+  background-image: url("https://wallpapercave.com/wp/wp3503092.jpg");
+  height: 1rem;
+  padding: 1rem;
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+  position: relative;
+  border: calc(var(--radius) / 2);
+  border-radius: 5px;
+  font-size: 1.85rem;
 }
-  
-  nav * * {
-    margin: 0.5rem;
-  }
-  
-  nav .nav-right {
-    text-align: right;
-    position: absolute;
-    right: 1rem;
-  }
-  
-  nav .nav-left {
-    text-align: left;
-    position: absolute;
-    left: 1rem;
-  }
-  
-  nav a {
-    color:azure;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: rgb(60, 255, 0);
-    text-decoration: overline;
-  }
+ 
+nav * * {
+  margin: 0.5rem;
+}
+
+nav .nav-right {
+  text-align: right;
+  position: absolute;
+  right: 1rem;
+}
+
+nav .nav-left {
+  text-align: left;
+  position: absolute;
+  left: 1rem;
+}
+
+nav a {
+  color:antiquewhite;
+}
+
+nav a:hover {
+  color: rgb(60, 255, 0);
+  text-decoration: none;
+}
