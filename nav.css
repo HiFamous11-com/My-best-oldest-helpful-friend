@@ -1,6 +1,7 @@
 @import url("main.css");
 
 nav {
+  position: relative;
   background-image: url("https://wallpapercave.com/wp/wp3503092.jpg");
   height: 2rem;
   padding: 1rem;
@@ -8,7 +9,6 @@ nav {
       padding-right: 1rem;
       padding-bottom: 1rem;
       padding-left: 1rem;
-  position: relative;
   border: calc(var(--radius) / 2);
   border-radius: 5px;
   font-size: 1.85rem;
